@@ -7,7 +7,12 @@
     justify-content: center;
     align-items: center;
 }
-
+.carousel img:nth-child(2) {
+    transform: scale(2.5);
+    position: absolute;
+    top: 50%; 
+    left: 39%;
+}
 .carousel img {
     position: absolute;
     top: 80%; 

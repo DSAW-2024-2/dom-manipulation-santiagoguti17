@@ -47,3 +47,86 @@
     padding: 5px 90px;
     margin: 0 5px;
 }
+
+/* Estilos para mobile (320px x 480px) */
+@media only screen and (max-width: 320px) {
+    .carousel {
+        height: 300px;
+        margin-left: 2px;
+    }
+    .carousel img:nth-child(2) {
+        transform: scale(1);
+        left: 1px;
+    }
+    .carousel img {
+        top: 70%;
+    }
+    .carousel-controls button {
+        font-size: 20px;
+        padding: 5px 40px;
+        margin-top: 170px;
+        margin-right: 24px;
+        margin-left: 15px; 
+    }
+}
+
+/* Estilos para tablet (768px x 1024px) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .carousel {
+        height: 550px;
+        margin-left: 4.5px;
+    }
+    .carousel img:nth-child(2) {
+        transform: scale(2.5);
+        left: 25%;
+        top: 50%
+    }
+    .carousel img {
+        top: 60%;
+        margin-top: 50px;
+        
+    }
+    .carousel-controls button {
+        font-size: 30px;
+        padding: 10px 60px;
+        margin-top: 160px;
+        margin-right: 110px;
+        margin-left: 100px;
+        
+    }
+
+    
+
+}
+
+/* Estilos para desktop (1024px x 768px) */
+@media only screen and (min-width: 1024px) {
+    .carousel {
+        height: 600px;
+        margin-left: 10px;
+        margin-top: 10%;
+        transform: scale(0.7);
+    }
+    .carousel img:nth-child(2) {
+        transform: scale(3);
+        left: 31%;
+        top: 40%;
+    }
+    .carousel img {
+        top: 50%;
+        margin-top: 100px;
+    }
+    .carousel-controls button {
+        font-size: 36px;
+        padding: 15px 80px;
+        margin-top: 0.2px;
+        margin-right: 0.1px;
+        margin-left: 0.1px;
+        margin-bottom: 100px;
+    }
+    
+}
+
+
+
+

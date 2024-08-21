@@ -52,7 +52,7 @@
 @media only screen and (max-width: 320px) {
     .carousel {
         height: 300px;
-        margin-left: 2px;
+        margin-left: 5px;
     }
     .carousel img:nth-child(2) {
         transform: scale(1);
@@ -118,7 +118,7 @@
     }
     .carousel-controls button {
         font-size: 36px;
-        padding: 15px 80px;
+        padding: 15px 50px;
         margin-top: 0.2px;
         margin-right: 0.1px;
         margin-left: 0.1px;
